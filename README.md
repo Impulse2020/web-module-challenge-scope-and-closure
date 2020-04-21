@@ -42,6 +42,9 @@ Find the file `index.js` and complete the tasks.
 Edit the `ReadMe` file with your answers.
 
 1. In your own words, define closure (1-2 sentences).
+
+Enclosing a function into another function. Or more simply put putting a function inside another function in a parent child relationship like nesting.
+
 2. Study the following code, then answer the questions below.
 
 ```js
@@ -63,8 +66,16 @@ dansRoll();
 ```
 
 a. Where is closure used in this code? How can you tell?
+
+Closure is used in the return you're returning another function. Calling personalDice without a parameter will just return the function code.
+
 b. Compare and contrast calling `dansRoll` the first and second time. What is always the same? What could change?
+
+Only the newRoll variable will change giving a different number value.
+
 c. What is the lexical scope of `newRoll`? 
+
+it is block level so it cannot be used outside of its function {} of code.
 
 ### Task 3 - Stretch Goals
 
